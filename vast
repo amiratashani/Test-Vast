@@ -32,7 +32,7 @@
                             </VideoClicks>
                         
                         <MediaFiles>
-                            <MediaFile delivery="progressive" type="video/mp4">
+                            <MediaFile delivery="streaming"  type="application/x-mpegURL">
                                 <![CDATA[https://ads-azd204e.telewebion.com/ads/kh/movies20231213/fb6207c1-2c92-4a51-8149-473c293b9c1b/master.m3u8]]>
                             </MediaFile>
                         </MediaFiles>
