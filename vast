@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VAST version="2.0">
+    <Ad id="preroll0-0">
+        <InLine>
+            <AdSystem>اپ جدید آرشیو - معرفی</AdSystem>
+            <AdTitle>TELEWEBION VAST Video Ad</AdTitle>
+            <Description></Description>
+            <Impression/>
+            <Creatives>
+                <Creative AdID="preroll0-0">
+                    <Linear skipoffset="00:00:06">
+                        <Duration>00:00:30</Duration>
+                        <TrackingEvents>
+                            <Tracking event="firstQuartile"></Tracking>
+                            <Tracking event="midpoint"></Tracking>
+                            <Tracking event="skip">https://analytics.telewebion.com/v1/event/467_nandarpl_5589/skp</Tracking>
+                            <Tracking event="thirdQuartile"></Tracking>
+                            <Tracking event="mute"></Tracking>
+                            <Tracking event="unmute"></Tracking>
+                            <Tracking event="pause"></Tracking>
+                            <Tracking event="resume"></Tracking>
+                            <Tracking event="fullscreen"></Tracking>
+                            <Tracking event="close"></Tracking>
+                            <Tracking event="acceptInvitation"></Tracking>
+                            <Tracking event="start">https://analytics.telewebion.com/v1/event/467_nandarpl_5589/strt</Tracking>
+                            <Tracking event="complete">https://analytics.telewebion.com/v1/event/467_nandarpl_5589/cmplt</Tracking>
+                            <Tracking event="progress" offset="00:00:06">https://analytics.telewebion.com/v1/event/467_nandarpl_5589/imp</Tracking>
+                        </TrackingEvents>
+                            <VideoClicks>
+                            <ClickThrough><![CDATA[https://mahdefarsh.com/?clickTracks=https://analytics.telewebion.com/v1/event/467_nandarpl_5589/clk&skipTrack=https://analytics.telewebion.com/v1/event/467_nandarpl_5589/skp]]></ClickThrough>
+                            <ClickTracking id="tracking-0">https://analytics.telewebion.com/v1/event/467_nandarpl_5589/clk</ClickTracking>
+                            </VideoClicks>
+                        
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/mp4">
+                                <![CDATA[https://ads-azd204e.telewebion.com/ads/kh/movies20231213/fb6207c1-2c92-4a51-8149-473c293b9c1b/master.m3u8]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
