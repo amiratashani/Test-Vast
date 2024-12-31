@@ -2,7 +2,7 @@
 <VAST version="2.0">
     <Ad id="preroll0-0">
         <InLine>
-            <AdSystem>سایت آرشیو - معرفی</AdSystem>
+            <AdSystem>اپ جدید آرشیو</AdSystem>
             <AdTitle>TELEWEBION VAST Video Ad</AdTitle>
             <Description></Description>
             <Impression/>
@@ -13,7 +13,7 @@
                         <TrackingEvents>
                             <Tracking event="firstQuartile"></Tracking>
                             <Tracking event="midpoint"></Tracking>
-                            <Tracking event="skip">https://analytics.telewebion.com/v1/event/467_ntwplar01_5587/skp</Tracking>
+                            <Tracking event="skip">https://analytics.telewebion.com/v1/event/500_nandarpl_6005/skp</Tracking>
                             <Tracking event="thirdQuartile"></Tracking>
                             <Tracking event="mute"></Tracking>
                             <Tracking event="unmute"></Tracking>
@@ -22,21 +22,21 @@
                             <Tracking event="fullscreen"></Tracking>
                             <Tracking event="close"></Tracking>
                             <Tracking event="acceptInvitation"></Tracking>
-                            <Tracking event="start">https://analytics.telewebion.com/v1/event/467_ntwplar01_5587/strt</Tracking>
-                            <Tracking event="complete">https://analytics.telewebion.com/v1/event/467_ntwplar01_5587/cmplt</Tracking>
-                            <Tracking event="progress" offset="00:00:06">https://analytics.telewebion.com/v1/event/467_ntwplar01_5587/imp</Tracking>
+                            <Tracking event="start">https://analytics.telewebion.com/v1/event/500_nandarpl_6005/strt</Tracking>
+                            <Tracking event="complete">https://analytics.telewebion.com/v1/event/500_nandarpl_6005/cmplt</Tracking>
+                            <Tracking event="progress" offset="00:00:06">https://analytics.telewebion.com/v1/event/500_nandarpl_6005/imp</Tracking>
                         </TrackingEvents>
                             <VideoClicks>
-                                <ClickThrough><![CDATA[https://mahdefarsh.com/?clickTracks=https://analytics.telewebion.com/v1/event/467_ntwplar01_5587/clk&skipTrack=https://analytics.telewebion.com/v1/event/467_ntwplar01_5587/skp]]></ClickThrough>
-                                <ClickTracking id="tracking-0">https://analytics.telewebion.com/v1/event/467_ntwplar01_5587/clk</ClickTracking>
+                                <ClickThrough><![CDATA[https://www.boodeet.com/?clickTracks=https://analytics.telewebion.com/v1/event/500_nandarpl_6005/clk&skipTrack=https://analytics.telewebion.com/v1/event/500_nandarpl_6005/skp]]></ClickThrough>
+                                <ClickTracking id="tracking-0">https://analytics.telewebion.com/v1/event/500_nandarpl_6005/clk</ClickTracking>
                             </VideoClicks>
                         
                         <MediaFiles>
                             <MediaFile delivery="streaming" type="application/x-mpegURL">
-                                <![CDATA[https://ads-azd2050.telewebion.com/ads/kh/movies20231213/fb6207c1-2c92-4a51-8149-473c293b9c1b/master.m3u8]]>
+                                <![CDATA[https://ads-azd2050.telewebion.com/ads/kh/movies20231213/788aba27-c563-4d21-bcc9-f0dac9e9b7a0/master.m3u8]]>
                             </MediaFile>
                             <MediaFile delivery="progressive" type="video/mp4">
-                                <![CDATA[https://ads-azd2050.telewebion.com/ads/kh/movies20231213/fb6207c1-2c92-4a51-8149-473c293b9c1b/master.m3u8]]>
+                                <![CDATA[https://ads-azd2050.telewebion.com/ads/kh/movies20231213/788aba27-c563-4d21-bcc9-f0dac9e9b7a0/master.m3u8]]>
                             </MediaFile>
                         </MediaFiles>
                     </Linear>
