@@ -30,24 +30,30 @@
                         </Companion>
                     </CompanionAds>
                 </Creative>
-                <Creative id="5480" sequence="1">
-                    <Linear>
-                        <Duration>00:00:16</Duration>
+                 <Creative AdID="preroll0-0">
+                    <Linear skipoffset="00:00:05">
+                        <Duration>00:00:30</Duration>
                         <TrackingEvents>
-                            <Tracking event="start">http://example.com/tracking/start</Tracking>
-                            <Tracking event="firstQuartile">http://example.com/tracking/firstQuartile</Tracking>
-                            <Tracking event="midpoint">http://example.com/tracking/midpoint</Tracking>
-                            <Tracking event="thirdQuartile">http://example.com/tracking/thirdQuartile</Tracking>
-                            <Tracking event="complete">http://example.com/tracking/complete</Tracking>
-                            <Tracking event="progress" offset="00:00:10">http://example.com/tracking/progress-10</Tracking>
+                            <Tracking event="firstQuartile"></Tracking>
+                            <Tracking event="midpoint"></Tracking>
+                            <Tracking event="skip">https://analytics.telewebion.com/v1/event/179_nandlvpl_5811/skp</Tracking>
+                            <Tracking event="thirdQuartile"></Tracking>
+                            <Tracking event="mute"></Tracking>
+                            <Tracking event="unmute"></Tracking>
+                            <Tracking event="pause"></Tracking>
+                            <Tracking event="resume"></Tracking>
+                            <Tracking event="fullscreen"></Tracking>
+                            <Tracking event="close"></Tracking>
+                            <Tracking event="acceptInvitation"></Tracking>
+                            <Tracking event="start">https://analytics.telewebion.com/v1/event/179_nandlvpl_5811/strt</Tracking>
+                            <Tracking event="complete">https://analytics.telewebion.com/v1/event/179_nandlvpl_5811/cmplt</Tracking>
+                            <Tracking event="progress" offset="00:00:05">https://analytics.telewebion.com/v1/event/179_nandlvpl_5811/imp</Tracking>
                         </TrackingEvents>
-
-                        <VideoClicks>
-                            <ClickTracking id="blog">
-                                <![CDATA[https://iabtechlab.com]]>
-                            </ClickTracking>
-                        </VideoClicks>
-
+                            <VideoClicks>
+                                <ClickThrough><![CDATA[https://mahdefarsh.com/?clickTracks=https://analytics.telewebion.com/v1/event/179_nandlvpl_5811/clk&skipTrack=https://analytics.telewebion.com/v1/event/179_nandlvpl_5811/skp]]></ClickThrough>
+                                <ClickTracking id="tracking-0">https://analytics.telewebion.com/v1/event/179_nandlvpl_5811/clk</ClickTracking>
+                            </VideoClicks>
+                        
                         <MediaFiles>
                             <MediaFile delivery="streaming" type="application/x-mpegURL">
                                 <![CDATA[https://ads-azd2043.telewebion.com/ads/kh/movies20231213/8231b8ad-27af-4ea9-aab4-f1105566cd22/master.m3u8]]>
