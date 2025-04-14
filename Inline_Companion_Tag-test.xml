@@ -48,7 +48,7 @@
                             </ClickTracking>
                         </VideoClicks>
 
-                        MediaFiles>
+                        <MediaFiles>
                             <MediaFile delivery="streaming" type="application/x-mpegURL">
                                 <![CDATA[https://ads-azd2043.telewebion.com/ads/kh/movies20231213/8231b8ad-27af-4ea9-aab4-f1105566cd22/master.m3u8]]>
                             </MediaFile>
